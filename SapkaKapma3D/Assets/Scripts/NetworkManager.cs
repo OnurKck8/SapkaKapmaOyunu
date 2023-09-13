@@ -4,18 +4,18 @@ using UnityEngine;
 using Photon.Pun;
 public class NetworkManager : MonoBehaviourPunCallbacks
 {
-    public static NetworkManager instance;
+    public static NetworkManager Instance;
 
     private void Awake()
     {
         //oturum varsa devam ettir yoksa yeni aç
-        if (instance != null && instance != this)
+        if (Instance != null && Instance != this)
         {
             gameObject.SetActive(false);
         }
         else
         {
-            instance = this;
+            Instance = this;
             DontDestroyOnLoad(gameObject);
         }
        
