@@ -1859,7 +1859,7 @@ MonoBehaviour:
   - obj: {fileID: 984184953}
     nameText: {fileID: 146749761}
     hatTimeSlider: {fileID: 95640150}
-  winText: {fileID: 0}
+  winText: {fileID: 1794925475}
 --- !u!1 &1464606560
 GameObject:
   m_ObjectHideFlags: 0
